@@ -1,0 +1,23 @@
+import java.util.*;
+
+class scanetry {
+
+public static void main (String[] args) throws java.lang.Exception
+{
+int[] a;
+int n, j;
+Scanner in=new Scanner(System.in);
+System.out.print(" ");
+a=new int[2];
+for(int i=0;i<=1;i++) {a[i]=in.nextInt ();}
+j=1;
+if (a[0]>a[1]){ 
+	System.out.println(a[0] + " > " + a[1]);} else	{System.out.println(a[0] + " < " + a[1]);}	
+
+Person vitya = new Person(120, "eht");
+System.out.println(vitya.height); 
+vitya.say("Jora");
+
+
+
+}}
